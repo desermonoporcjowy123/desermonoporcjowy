@@ -1,0 +1,139 @@
+Strona główna
+Nazywam się Filip Staniszewski, chodzę do klasy 8e i moją pasją są komputery, ich budowa oraz wszelka konfiguracja.
+Z mojej strony dowiesz się jak złożyć komputer oraz jakie potrzebujesz akcesoria i jaki wybrać do niego system.  
+
+
+
+
+
+
+
+
+Podstrona 1
+
+Części komputera - przycisk
+ - obudowa - Pierwszą rzeczą jest obudowa komputera to element obowiązkowy każdego zestawu komputerowego. Jej główną funkcją jest ochrona podzespołów komputerowych przed uszkodzeniem mechanicznym i wpływem czynników zewnętrznych, takich jak kurz, wilgoć czy pył
+ - zasilacz - Zasilacz to urządzenie, które przetwarza napięcie przemienne z gniazdka elektrycznego na niskie, stabilizowane napięcia stałe.
+ - płyta główna - Płyta główna to najważniejszy element w każdym komputerze. Jest to obwód, na którym montuje się wszystkie pozostałe komponenty komputera, w tym procesor, pamięć operacyjną, dyski twarde, karty graficzne i inne.
+ - procesor - Jest to mózg komputera. Odpowiada za prawidłowe przeprowadzanie procesów – od prostych, polegających na wykonywaniu matematycznych obliczeń w cyfrowym kalkulatorze, po skomplikowane, umożliwiające granie w gry komputerowe. 
+ - pamięć ram - Pamięć o dostępie swobodnym (RAM), znana również jako pamięć główna, to rodzaj pamięci komputerowej, która przechowuje dane i instrukcje, które są obecnie używane przez procesor. Jej pojemność określana zazwyczaj w gigabajtach. Pamięć RAM jest szybka i łatwa w dostępie, co czyni ją idealnym miejscem do przechowywania danych, które są często używane.
+ - dysk - Służy do zapisywania danych z systemu. SSD (Solid State Drive) i NVMe (Non-Volatile Memory express) - dwa rodzaje dysków, które zastąpiły dyski twarde (HDD – Hard Disk Drive) jako domyślny typ pamięci masowej w komputerach.
+ - karta graficzna - Karta graficzna, znana również jako układ graficzny (GPU), jest jednym z najważniejszych podzespołów komputera. Odpowiada za przetwarzanie i wyświetlanie grafiki na ekranie monitora.
+ - chłodzenie komputera - Chłodzenie komputera jest jego ważnym elementem, zachowuje optymalną temperaturę w obudowie.
+ - chłodzenie procesora -  Pomaga procesorowi efektywnie odprowadzać ciepło.
+   wyróżniamy 2 główne typy chłodzenia procesora
+	- chłodzenie powietrzne
+	  - Jak działa: Procesor oddaje ciepło do metalowego radiatora, który jest następnie chłodzony przez wentylator, odprowadzając ciepło z radiatora za pomocą ruchu powietrza.
+	  - Charakterystyka: Jest to najpopularniejsza metoda, charakteryzująca się prostotą montażu i niższą ceną w porównaniu do systemów wodnych.
+	- chłodzenie cieczą
+	  - Jak działa: Płyn chłodzący przepływa przez blok wodny zamontowany na procesorze, odbierając od niego ciepło. Następnie płyn transportowany jest do radiatora (chłodnicy), gdzie 	    wentylatory odprowadzają ciepło do powietrza, po czym schłodzony płyn wraca do obiegu. 
+	  - Charakterystyka: Oferuje zazwyczaj lepszą wydajność chłodzenia i jest często cichsze niż chłodzenia powietrzne, co czyni je dobrym wyborem dla komputerów gamingowych i do intensywnych zadań, choć jest też droższe.
+
+
+
+
+
+
+
+
+
+Podstrona 2
+Urządzenia peryferyjne
+ - monitor - Monitor jest podstawowym urządzeniem do wyświetlania obrazu, które przetwarza informacje z karty graficznej komputera, prezentując je użytkownikowi na ekranie. Jest to kluczowy element zestawu komputerowego, niezbędny do pracy biurowej, grania, oglądania filmów czy tworzenia grafiki. 
+
+	Wyróżniamy 5 rodzajów matryc:
+
+		Te podstawowe:
+
+		- TN (Twisted Nematic)
+                  Zalety: Szybki czas reakcji i niski koszt produkcji. 
+		  Wady: Słabe odwzorowanie kolorów i słabe kąty widzenia. 
+		  Zastosowanie: Najlepsze dla graczy, gdzie liczy się niski czas opóźnienia. 
+
+		- IPS (In-Plane Switching)
+		  Zalety: Doskonałe kąty widzenia (178/178 stopni) i wysoka jakość kolorów. 
+		  Wady: Niższy kontrast i potencjalnie dłuższy czas reakcji w starszych modelach. 
+		  Zastosowanie: Idealne dla profesjonalistów od grafiki i obróbki zdjęć, a także do codziennej pracy. 
+
+		- VA (Vertical Alignment)
+		  Zalety: Wysoki kontrast i dobre odwzorowanie kolorów, lepsze od TN. 
+		  Wady: Kąty widzenia są gorsze niż w IPS, ale lepsze niż w TN. 
+		  Zastosowanie: Dobry kompromis dla osób szukających dobrej jakości obrazu i wydajności w grach. 
+
+		Oraz te zaawansowane:
+
+		- OLED (Organic Light Emiting Diode)
+		  Zalety: Doskonały, nieskończony kontrast (prawdziwa czerń), szerokie kąty widzenia i bardzo szybki czas reakcji. 
+		  Wady: matryce OLED mogą się wypalić, jeśli jakiś tekst lub obraz, np. program telewizyjny lub po prostu pulpit systemu operacyjnego, wyświetla się na nich zbyt długo
+		  Zastosowanie: Dla profesjonalistów: grafików komputerowych, fotografów i graczy wymagających najwyższej jakości obrazu. 
+
+		- QLED (Quantum dot Light Emitting Diode)
+		  Zalety: Bardzo dobre odwzorowanie kolorów, wysoka jasność i dobra żywotność
+		  Wady: brak indywidualnego podświetlenia dla każdego piksela, jak w przypadku OLEDa
+
+ - myszka - urządzenie wejściowe, które pozwala na interakcję z graficznym interfejsem użytkownika (GUI) komputera. Służy do precyzyjnego sterowania kursorem na ekranie, co umożliwia wykonywanie różnych operacji, takich jak:
+
+	- Wskazywanie i wybieranie: Poruszanie kursorem, aby wskazać na ikony, pliki, foldery, przyciski czy elementy menu, a następnie kliknięcie w celu ich wybrania.
+
+	- Przeciąganie i upuszczanie: Chwytanie i przesuwanie obiektów (np. plików) w inne miejsca na pulpicie lub w oknach aplikacji.
+
+	- Przewijanie: Używanie kółka scrolla, by szybko poruszać się po dokumentach i stronach internetowych w pionie lub poziomie.
+
+	- Wywoływanie menu kontekstowych: Kliknięcie prawym przyciskiem myszy, aby otworzyć menu z dodatkowymi opcjami dla danego obiektu.
+
+	- Powierzanie funkcji dodatkowym przyciskom: W przypadku myszek gamingowych lub profesjonalnych, dodatkowe przyciski można programować do wykonywania specyficznych akcji, np. makr 	  czy skrótów klawiaturowych.
+
+	Zasada działania i rodzaje myszy
+		
+	Mysz działa na zasadzie przekładania fizycznego ruchu dłoni na sygnały cyfrowe, które są interpretowane przez system operacyjny. W zależności od technologii, można wyróżnić:
+
+		- Myszy mechaniczne (kulowe): Starsze modele, które wykorzystują gumową kulkę i rolki do wykrywania ruchu. Są mało precyzyjne i wymagają regularnego czyszczenia.
+
+		- Myszy optyczne: Najpopularniejsze obecnie. Używają diody LED i miniaturowej kamery do śledzenia ruchu na powierzchni.
+
+		- Myszy laserowe: Działają podobnie do myszy optycznych, ale wykorzystują światło lasera, co zapewnia jeszcze większą precyzję.
+
+		- Myszy optyczne: przekształca ruchy ręki na sygnały elektryczne, które są następnie wysyłane do komputera. 
+	Dzięki temu interakcja z komputerem staje się intuicyjna i szybka, co było przełomem w stosunku do tekstowych interfejsów, które dominowały przed pojawieniem się GUI.
+
+ - klawiatura - urządzenie wejściowe, które służy przede wszystkim do wprowadzania danych tekstowych oraz cyfr, a także do wydawania poleceń w systemie operacyjnym. Pełni rolę podstawowego narzędzia komunikacji między człowiekiem a komputerem, umożliwiając:
+
+	- Wprowadzanie tekstu i danych: Pisanie dokumentów, e-maili, wiadomości, a także wprowadzanie danych w arkuszach kalkulacyjnych czy formularzach.
+
+	- Sterowanie systemem i aplikacjami: Używanie skrótów klawiaturowych (np. Ctrl+C do kopiowania, Alt+Tab do przełączania okien), które znacznie przyspieszają pracę.
+
+	- Nawigację: Poruszanie się po stronach internetowych, menu czy dokumentach za pomocą klawiszy strzałek, Page Up, Page Down itp.
+
+	Rodzaje klawiatur i ich zastosowanie
+	Ze względu na mechanizm działania klawisze, klawiatury dzielą się na kilka podstawowych typów, z których każdy ma swoje specyficzne przeznaczenie:
+
+		- Klawiatury membranowe: Najbardziej powszechne, tanie w produkcji i ciche. Działają na zasadzie nacisku na elastyczną membranę pod klawiszami. Są idealne do codziennego użytku biurowego i domowego.
+
+		- Klawiatury mechaniczne: Każdy klawisz ma osobny, niezależny przełącznik (switch). Charakteryzują się dużą precyzją, wysoką trwałością i wyraźnym "klikiem" (lub innym rodzajem wyczuwalnego oporu), co doceniają gracze i osoby dużo piszące, np. programiści czy pisarze.
+
+		- Klawiatury nożycowe: Wariant klawiatur membranowych, często spotykany w laptopach. Mechanizm nożycowy zapewnia krótki skok klawisza i stabilność, co sprawia, że są ciche i wygodne do pisania.
+
+
+
+
+
+
+
+
+Podstrona 3
+Po zbudowaniu komputera, aby zacząć go używać, potrzebny jest nam system operacyjny, podstawowe oprogramowanie zarządzające wszystkimi zasobami sprzętowymi komputera (takimi jak procesor, pamięć, dyski, myszka, klawiatura) oraz oprogramowaniem. Można go uznać za pośrednika między użytkownikiem a sprzętem.
+	Główne zadania systemu operacyjnego to:
+
+ - Zarządzanie procesami: Koordynowanie i przydzielanie czasu procesora dla różnych programów, które są uruchomione.
+
+ - Zarządzanie pamięcią: Decydowanie, które dane i programy mają być przechowywane w pamięci operacyjnej (RAM).
+
+ - Zarządzanie plikami: Tworzenie, przechowywanie i organizowanie plików na dyskach twardych, pendrive'ach i innych nośnikach danych.
+
+ - Obsługa urządzeń wejścia/wyjścia: Umożliwianie komunikacji między komputerem a urządzeniami zewnętrznymi, takimi jak drukarka, klawiatura, czy myszka.
+
+Istnieją 2 główne systemy operacyne dostępne do zainstalowania na twój komter stacjonarny lub laptop:
+
+ - Windows
+
+ - Linux
