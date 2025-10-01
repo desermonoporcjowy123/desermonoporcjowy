@@ -2,14 +2,11 @@
 	<head>
 	<title>Części komputera</title>
 	<style>
-	.rozmiartekstow {
+	.rozmiartekstu {
 		font-size: 17px;
 	}
 	.rozmiartekstutytulow {
 		font-size: 20px;
-	}
-	.wyroznione {
-		font-size: 17px;
 	}
 	
 	
@@ -23,7 +20,12 @@
 	}
 	p {
 		color: 0e0e0e;
-		font-size: 24px;
+		font-size: 20px;
+		font-family: Helvetica;
+	}
+	ol {
+		color: 0e0e0e;
+		font-size: 20px;
 		font-family: Helvetica;
 	}
 	marquee {
@@ -33,6 +35,10 @@
 		font-family: Helvetica;
 		margin-bottom: 5px;
 	}
+	table {
+		font-family: 'Helvetica', sans-serif;
+	}
+	
 	</style>
 	</head>
 	<!-- tekst -->
@@ -50,48 +56,94 @@
 	<!-- kropka --!>
 	<ul>
 	<li><p class="rozmiartekstowtytulow"><B>obudowa</B>  </p></li>
-	<p class="rozmiartekstow"> pierwszą rzeczą jest obudowa komputera, to element obowiązkowy komputera. Jej główną funkcją jest ochrona podzespołów komputerowych przed uszkodzeniem mechanicznym i wpływem czynników zewnętrznych, takich jak kurz, wilgoć czy pył  </p>
-	<p class="rozmiartekstow"> Rodzaje obudów komputerowych są najczęściej klasyfikowane ze względu na ich rozmiar oraz kompatybilność z płytami głównymi.</p>
-	<p class="wyroznione"> <B>Wyróżniamy 5 głównych rozmiarów obudów:</B></p>
+	<p class="rozmiartekstu"> pierwszą rzeczą jest obudowa komputera, to element obowiązkowy komputera. Jej główną funkcją jest ochrona podzespołów komputerowych przed uszkodzeniem mechanicznym i wpływem czynników zewnętrznych, takich jak kurz, wilgoć czy pył  </p>
+	<p class="rozmiartekstu"> Rodzaje obudów komputerowych są najczęściej klasyfikowane ze względu na ich rozmiar oraz kompatybilność z płytami głównymi.</p>
+	<p class="rozmiartekstu"> <B>Wyróżniamy 5 głównych rozmiarów obudów:</B></p>
 	</ul>
 	<!-- numerowane --!>
 	<ol>
-	<p class="rozmiartekstow"><li><B>Full Tower (Big Tower)</B></li>
-	<ol style="list-style-type: lower-alpha;">
+	
+</ul>
+
+<style>
+ol.lower-alpha {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  color: #333;
+  margin-left: 20px;
+}
+</style>
+	<p class="rozmiartekstu"><li><B>Full Tower (Big Tower)</B></li>
+	<ol class="lower-alpha" style="list-style-type: lower-alpha;">
 	<br>
   <li>Charakterystyka: Największe obudowy, oferujące maksymalną przestrzeń.</li>
   <li>Kompatybilność z płytami głównymi: E-ATX, ATX, Micro-ATX, Mini-ITX.</li>
   <li>Zastosowanie: Komputery dla entuzjastów, serwery, stacje robocze, systemy z zaawansowanym chłodzeniem wodnym i wieloma kartami rozszerzeń/dysków.</li>
 </ol>
-	<p class="rozmiartekstow"><li><B>Midi Tower (Mid Tower / Middle Tower)</B></li>
-	<ol style="list-style-type: lower-alpha;">
+	<p class="rozmiartekstu"><li><B>Midi Tower (Mid Tower / Middle Tower)</B></li>
+	<ol class="lower-alpha" style="list-style-type: lower-alpha;">
 	<br>
   <li>Charakterystyka: Najbardziej popularny i uniwersalny rozmiar, będący kompromisem między przestrzenią a wymiarami.</li>
   <li>Kompatybilność z płytami głównymi: ATX, Micro-ATX, Mini-ITX.</li>
   <li>Zastosowanie: Większość domowych i gamingowych komputerów PC.</li>
 </ol>
-	<p class="rozmiartekstow"><li><B>Mini Tower</B></li>
-	<ol style="list-style-type: lower-alpha;">
+	<p class="rozmiartekstu"><li><B>Mini Tower</B></li>
+	<ol class="lower-alpha" style="list-style-type: lower-alpha;">
 	<br>
   <li>Charakterystyka: Mniejsza niż Midi Tower, z ograniczoną przestrzenią, ale wciąż pozwalająca na montaż standardowych komponentów.</li>
   <li>Kompatybilność z płytami głównymi: Micro-ATX, Mini-ITX.</li>
   <li>Zastosowanie: Komputery biurowe, domowe o podstawowej funkcjonalności.</li>
 </ol>
-	<p class="rozmiartekstow"><li><B>Micro-ATX</B></li>
-	<ol style="list-style-type: lower-alpha;">
+	<p class="rozmiartekstu"><li><B>Micro-ATX</B></li>
+	<ol class="lower-alpha" style="list-style-type: lower-alpha;">
 	<br>
-  <li>Charakterystyka: Bardzo małe obudowy, dedykowane najmniejszym płytom. Często używane zamiennie z Mini Tower dla Micro-ATX.</li>
+  <li>Charakterystyka: Małe obudowy, dedykowane najmniejszym płytom. Często używane zamiennie z Mini Tower dla Micro-ATX.</li>
   <li>Kompatybilność z płytami głównymi: Micro-ATX, Mini-ITX.</li>
   <li>Zastosowanie: Komputery do codziennych, niewymagających zastosowań.</li>
 </ol>
-	<p class="rozmiartekstow"><li><B>Mini-ITX</B></li>
-	<ol style="list-style-type: lower-alpha;">
+	<p class="rozmiartekstu"><li><B>Mini-ITX</B></li>
+	<ol class="lower-alpha" style="list-style-type: lower-alpha;">
 	<br>
   <li>Charakterystyka: Bardzo małe obudowy, zaprojektowane, aby zajmować jak najmniej miejsca. Często mają niestandardowy, kompaktowy kształt (np. kostki – Cube Case lub Desktop - pozioma).</li>
   <li>Kompatybilność z płytami głównymi: Głównie Mini-ITX.</li>
-  <li>Zastosowanie: Mini-PC, komputery HTPC (Home Theater PC), komputery biurkowe o minimalistycznym wyglądzie.</li>
+  <li>Zastosowanie: Mini-PC, komputery biurkowe o minimalistycznym wyglądzie.</li>
 </ol>
 	</ol>
+	<!-- kropka --!>
+	<ul>
+	<li><p class="rozmiartekstowtytulow"><B>zasilacz</B>  </p></li>
+	<p class="rozmiartekstu"> urządzenie, które przetwarza napięcie przemienne (AC) z gniazdka elektrycznego na niskie, stabilizowane napięcie stałe (DC), który jest niezbędny do działania komponentów takich jak płyta główna, procesor czy karta graficzna.  </p>
+	<p class="rozmiartekstu"> Moc zasilacza podawania jest w <B>watach</B></p>
+	<p class="rozmiartekstu"> Moc zasilacza zależy od typu komputera, który chcesz zbudować:</p>
+	</ul>
+	<!-- tabela --!>
+	
+	<table border="1">
+  <thead>
+    <tr>
+      <th>Typ komputera</th>
+      <th>Typowa moc zasilacza</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Komputer biurowy</td>
+      <td>400–500 W</td>
+    </tr>
+    <tr>
+      <td>Komputer do gier</td>
+      <td>600–750 W</td>
+    </tr>
+    <tr>
+      <td>Komputer z mocną grafiką</td>
+      <td>850–1000 W</td>
+    </tr>
+    <tr>
+      <td>Stacje robocze / serwery</td>
+      <td>≥1000 W</td>
+    </tr>
+  </tbody>
+</table>
 	
 	<!-- przycisk1 --!>
 	<br>
