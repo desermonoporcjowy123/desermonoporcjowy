@@ -8,8 +8,16 @@
 	.rozmiartekstutytulow {
 		font-size: 20px;
 	}
-	
-	
+	.custom-list {
+		list-style-type: none;
+		counter-reset: litery;
+	}
+
+	.custom-list li::before {
+		counter-increment: litery;
+		content: counter(litery, lower-alpha) ") ";
+		font-weight: bold;
+	}
 	
 	.proporcjezdjc { display: flex; }
 	.zdjcinside { margin-left: 5px; margin-top: 0; }
@@ -71,59 +79,61 @@
 ol.lower-alpha {
   font-family: 'Arial', sans-serif;
   font-size: 18px;
-  color: #333;
+  color: #000000;
   margin-left: 20px;
 }
 </style>
 	<!-- punkt --!>
 	<p class="rozmiartekstu"><li><B>Full Tower (Big Tower)</B></li>
-	<ol class="lower-alpha" style="list-style-type: lower-alpha;">
+	<ol class="custom-list">
 	<br>
-	<!-- podpunkty --!>
-  <li>Charakterystyka: Największe obudowy, oferujące maksymalną przestrzeń.</li>
-  <li>Kompatybilność z płytami głównymi: E-ATX, ATX, Micro-ATX, Mini-ITX.</li>
-  <li>Zastosowanie: Komputery dla entuzjastów, serwery, stacje robocze, systemy z zaawansowanym chłodzeniem wodnym i wieloma kartami rozszerzeń/dysków.</li>
+		<!-- podpunkty --!>
+		<li>Charakterystyka: Największe obudowy, oferujące maksymalną przestrzeń.</li>
+		<li>Kompatybilność z płytami głównymi: E-ATX, ATX, Micro-ATX, Mini-ITX.</li>
+		<li>Zastosowanie: Komputery dla entuzjastów, serwery, stacje robocze, systemy z zaawansowanym chłodzeniem wodnym i wieloma kartami rozszerzeń/dysków.</li>
+
 </ol>
 	
 	<!-- punkt --!>
 	<p class="rozmiartekstu"><li><B>Midi Tower (Mid Tower / Middle Tower)</B></li>
-	<ol class="lower-alpha" style="list-style-type: lower-alpha;">
+	<ol class="custom-list">
 	<br>
-	<!-- podpunkty --!>
-  <li>Charakterystyka: Najbardziej popularny i uniwersalny rozmiar, będący kompromisem między przestrzenią a wymiarami.</li>
-  <li>Kompatybilność z płytami głównymi: ATX, Micro-ATX, Mini-ITX.</li>
-  <li>Zastosowanie: Większość domowych i gamingowych komputerów PC.</li>
+		<!-- podpunkty --!>
+		<li>Charakterystyka: Najbardziej popularny i uniwersalny rozmiar, będący kompromisem między przestrzenią a wymiarami.</li>
+		<li>Kompatybilność z płytami głównymi: ATX, Micro-ATX, Mini-ITX.</li>
+		<li>Zastosowanie: Większość domowych i gamingowych komputerów PC.</li>
 </ol>
 	<!-- punkt --!>
 	<p class="rozmiartekstu"><li><B>Mini Tower</B></li>
-	<ol class="lower-alpha" style="list-style-type: lower-alpha;">
+	<ol class="custom-list">
 	<br>
-	<!-- podpunkty --!>
-  <li>Charakterystyka: Mniejsza niż Midi Tower, z ograniczoną przestrzenią, ale wciąż pozwalająca na montaż standardowych komponentów.</li>
-  <li>Kompatybilność z płytami głównymi: Micro-ATX, Mini-ITX.</li>
-  <li>Zastosowanie: Komputery biurowe, domowe o podstawowej funkcjonalności.</li>
+		<!-- podpunkty --!>
+		<li>Charakterystyka: Mniejsza niż Midi Tower, z ograniczoną przestrzenią, ale wciąż pozwalająca na montaż standardowych komponentów.</li>
+		<li>Kompatybilność z płytami głównymi: Micro-ATX, Mini-ITX.</li>
+		<li>Zastosowanie: Komputery biurowe, domowe o podstawowej funkcjonalności.</li>
 </ol>
 	<!-- punkt --!>
 	<p class="rozmiartekstu"><li><B>Micro-ATX</B></li>
-	<ol class="lower-alpha" style="list-style-type: lower-alpha;">
+	<ol class="custom-list">
 	<br>
-	<!-- podpunkty --!>
-  <li>Charakterystyka: Małe obudowy, dedykowane najmniejszym płytom. Często używane zamiennie z Mini Tower dla Micro-ATX.</li>
-  <li>Kompatybilność z płytami głównymi: Micro-ATX, Mini-ITX.</li>
-  <li>Zastosowanie: Komputery do codziennych, niewymagających zastosowań.</li>
+		<!-- podpunkty --!>
+		<li>Charakterystyka: Małe obudowy, dedykowane najmniejszym płytom. Często używane zamiennie z Mini Tower dla Micro-ATX.</li>
+		<li>Kompatybilność z płytami głównymi: Micro-ATX, Mini-ITX.</li>
+		<li>Zastosowanie: Komputery do codziennych, niewymagających zastosowań.</li>
 </ol>
+	<!-- punkt --!>
 	<p class="rozmiartekstu"><li><B>Mini-ITX</B></li>
-	<ol class="lower-alpha" style="list-style-type: lower-alpha;">
+	<ol class="custom-list">
 	<br>
-	<!-- podpunkty --!>
-  <li>Charakterystyka: Bardzo małe obudowy, zaprojektowane, aby zajmować jak najmniej miejsca. Często mają niestandardowy, kompaktowy kształt (np. kostki – Cube Case lub Desktop - pozioma).</li>
-  <li>Kompatybilność z płytami głównymi: Głównie Mini-ITX.</li>
-  <li>Zastosowanie: Mini-PC, komputery biurkowe o minimalistycznym wyglądzie.</li>
+		<!-- podpunkty --!>
+		<li>Charakterystyka: Bardzo małe obudowy, zaprojektowane, aby zajmować jak najmniej miejsca. Często mają niestandardowy, kompaktowy kształt (np. kostki – Cube Case lub Desktop - pozioma).</li>
+		<li>Kompatybilność z płytami głównymi: Głównie Mini-ITX.</li>
+		<li>Zastosowanie: Mini-PC, komputery biurkowe o minimalistycznym wyglądzie.</li>
 </ol>
 	</ol>
 	<!-- kropka --!>
 	<ul>
-	<li><p class="rozmiartekstowtytulow"><B>zasilacz</B>  </p></li>
+	<li><p class="rozmiartekstowtytulow"><B>zasilacz (PSU - <B>P</B>ower <B>S</B>upply <B>U</B>nit)</B>  </p></li>
 	<p class="rozmiartekstu"> urządzenie, które przetwarza napięcie przemienne (AC) z gniazdka elektrycznego na niskie, stabilizowane napięcie stałe (DC), który jest niezbędny do działania komponentów takich jak płyta główna, procesor czy karta graficzna.  </p>
 	<p class="rozmiartekstu"> Moc zasilacza podawania jest w <B>watach</B></p>
 	<p class="rozmiartekstu"> Moc zasilacza zależy od typu komputera, który chcesz zbudować:</p>
@@ -212,7 +222,7 @@ ol.lower-alpha {
 	</ul>
 	<!-- kropka --!>
 	<ul>
-	<li><p class="rozmiartekstowtytulow"><B>procesor</B>  </p></li>
+	<li><p class="rozmiartekstowtytulow"><B>procesor (CPU -  <B>C</B>entral <B>P</B>rocessing <B>U</B>nit)</B>  </p></li>
 	<p class="rozmiartekstu"> Jest to mózg komputera. Odpowiada za prawidłowe przeprowadzanie procesów – od prostych, polegających na wykonywaniu matematycznych obliczeń w cyfrowym kalkulatorze, po skomplikowane, umożliwiające granie w gry komputerowe.   </p>
 	<p class="rozmiartekstu"> Po wybraniu procesora należy dobrać pasującą płytę główną, która będzie miała odpowiedni <B>socket procesora</B>, </p>
 	</ul>
@@ -294,7 +304,66 @@ ol.lower-alpha {
     </tr>
   </tbody>
   </table>
-
+  
+	<!-- kropka --!>
+	<ul>
+	<li><p class="rozmiartekstowtytulow"><B>dysk</B>  </p></li>
+	<p class="rozmiartekstu"> pełni kluczową rolę w komputerze, służąc przede wszystkim do trwałego przechowywania danych. Jest to pamięć nieulotna, co oznacza, że dane na nim zapisane pozostają zachowane nawet po wyłączeniu zasilania. Pojemność dysku wyrażana jest najczęsciej w <B>gigabajtach</B>, choć coraz częściej zaczyna się spotykać dyski po np. <B>1000 GB</B>, czyli <B>1 TB</B> (<B>terabajt</B>)</p>
+	<p class="rozmiartekstu"> <B>Główne funkcje dysku: </B></p>
+	<ol class="custom-list">
+	</ol>
+	</ul>
+		<!-- podpunkty (kropki) --!>
+			<ul>
+			<li><B>Przechowywanie systemu operacyjnego</B> (OS - ang. <B>O</B>perating <B>S</B>ystem)</B> - Na dysku instalowany jest <a href="https://pl.wikipedia.org/wiki/System_operacyjny" style="font-size: 17px;"> ‎system operacyjny </a> (najczęściej Windows, czasami Linux), który służy do organizowania plików, uruchaminia aplikacji... Szybkość dysku ma ogromny wpływ na czas uruchamiania systemu.</li>
+			<li><B>Przechowywanie Aplikacji i Programów</B> - Wszystkie zainstalowane programy, gry i narzędzia komputerowe są przechowywane na dysku.</li>
+			<li><B>Przechowywanie Danych Użytkownika</B> - Dysk służy do przechowywania osobistych plików użytkownika, takich jak dokumenty, zdjęcia, filmy, muzyka, kopie zapasowe oraz inne pliki multimedialne.</li>
+			<li><B>Wirtualna Pamięć (Plik stronicowania - swap)</B> - W sytuacjach, gdy pamięć RAM jest niewystarczająca, system operacyjny może wykorzystywać część przestrzeni dyskowej jako tymczasową pamięć wirtualną, przenosząc do niej rzadziej używane dane.</li>
+			<li><B>Archiwizacja i Backup</B> - Dyski (zwłaszcza zewnętrzne) można użyć do tworzenia kopii zapasowych ważnych danych, zapewniając bezpieczeństwo w razie awarii głównego dysku.</li>
+			</ul>
+	<p class="rozmiartekstu"> <B>Rodzaje dysków: </B></p>
+	<p class="rozmiartekstu"> Obecnie dominują dwa główne typy dysków, różniące się technologią zapisu i budową: HDD i SSD.</p>
+	<ol class="custom-list">
+	</ol>
+	</ul>
+		<!-- podpunkty (kropki) --!>
+			<ul>
+			<li>Opis dysku <B>HDD</B>: tradycyjny typ dysku, wykorzystujący <B>magnetyczny</B> zapis danych. Wewnątrz obudowy znajdują się obracające się talerze magnetyczne oraz ruchoma głowica (ramię z siłownikiem), która zapisuje i odczytuje dane. Działanie to jest analogiczne do gramofonu, stąd nazwa "dysk talerzowy".</li>
+			<br>
+			<li><B>Zalety</B>: niski stosunek <B>ceny</B> do <B>pojemności</B>; dostępne w <B>bardzo dużych</B> pojemnościach (mnóstwo terabajtów), idealne do archiwizacji i serwerów.</li>
+			<br>
+			<li><B>Wady</B>: wolniejsza prędkość odczytu i zapisu danych w porównaniiu do SSD (zwykle ok. <B>150-200 MB/s</B>); elementy mechaniczne sprawiają, że są podatne na uszkodzenia w wyniku wstrząsów (np. upadek)</li>
+			<p class="rozmiartekstu"> <B>--------------------------</B></p>
+			<li>Opis dysku <B>SSD</B>: <B>nowoczesny typ dysku</B>, który <B>nie posiada ruchomych części mechanicznych</B>. Działanie opiera się na <B>pamięci flash NAND</B> (podobnej do tej, które możemy znaleźć w pendrive'ach) oraz kontrolerze.</li>
+			<br>
+			<li><B>Zalety</B>: <B>bardzo wysoka prędkość</B> odczytu i zapisu danych (zaczynając od 500 MB/s, a w przypadku dysków <B>NVMe</B> podłączanych przez złącze <B>PCIe 5.0</B> przekraczają <B><B>10 GB/s!!!</B></B>), co przekłada się na błyskawiczne uruchamianie systemu, programów i gier.; Brak ruchomych części czyni je odpornymi na wstrząsy i uszkodzenia mechaniczne.</li>
+			<br>
+			<li><B>Wady</B>: Wyższa cena za gigabajt pojemności w porównaniu do HDD</li>
+			</ul>
+	<p class="rozmiartekstu"> <B>Rodzaje złączy dysków SSD: </B></p>
+	<p class="rozmiartekstu"> Dyski SSD występują w różnych formatach i interfejsach:</p>
+		<!-- podpunkty (kropki) --!>
+			<ul>
+			<li><B>SATA (2,5")</B>: Zwykle zamknięte w obudowie, podłączane kablem SATA. Prędkości ograniczają się do maksymalnie ok. 600 MB/s.</li>
+			<br>
+			<li><B>M.2 (SATA lub PCIe/NVMe)</B>: Mniejsze, w formie "kości pamięci" wpinanej bezpośrednio w płytę główną.</li>
+			<br>
+			<!-- podpodpunkty (kropki) --!>
+				<ul>
+				<li><B>SATA (2,5")</B>: Zwykle zamknięte w obudowie, podłączane kablem SATA. Prędkości ograniczają się do maksymalnie ok. 600 MB/s.</li>
+				<br>
+				<li><B>M.2 (SATA lub PCIe/NVMe)</B>: Mniejsze, w formie "kości pamięci" wpinanej bezpośrednio w płytę główną.</li>
+				<br>
+				</ul>
+				</ul>
+	<!-- kropka --!>
+	<ul>
+	<li><p class="rozmiartekstowtytulow"><B>karta graficzna (GPU - <B>G</B>raphics <B>P</B>rocessing <B>U</B>nit)</B>  </p></li>
+	<p class="rozmiartekstu"> pełni kluczową rolę w komputerze, służąc przede wszystkim do trwałego przechowywania danych. Jest to pamięć nieulotna, co oznacza, że dane na nim zapisane pozostają zachowane nawet po wyłączeniu zasilania. Pojemność dysku wyrażana jest najczęsciej w <B>gigabajtach</B>, choć coraz częściej zaczyna się spotykać dyski po np. <B>1000 GB</B>, czyli <B>1 TB</B> (<B>terabajt</B>)</p>
+	<p class="rozmiartekstu"> <B>Główne funkcje dysku: </B></p>
+	<ol class="custom-list">
+	</ol>
+	</ul>
 	<!-- przycisk1 --!>
 	<br>
 	<div class="proporcjezdjc">
@@ -308,6 +377,4 @@ ol.lower-alpha {
 	<a href="podstrona3.html" style="font-size: 24px;"><br>‎Systemy operacyjne </a>
 	</div>
 	</body>
-	
-	
 </html>
