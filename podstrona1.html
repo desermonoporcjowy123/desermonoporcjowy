@@ -35,9 +35,90 @@
 		font-family: Helvetica;
 		margin-bottom: 5px;
 	}
-	table {
-		font-family: 'Helvetica', sans-serif;
-	}
+	<!-- styl tabeli -->
+	<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Responsywna Tabela</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .table-container {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 400px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f4f4f4;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    tr:hover {
+      background-color: #e0f7fa;
+    }
+
+    @media screen and (max-width: 600px) {
+      th, td {
+        padding: 8px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Typ komputera</th>
+          <th>Typowa moc zasilacza</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Komputer biurowy</td>
+          <td>400–500 W</td>
+        </tr>
+        <tr>
+          <td>Komputer do gier</td>
+          <td>600–750 W</td>
+        </tr>
+        <tr>
+          <td>Komputer z mocną grafiką</td>
+          <td>850–1000 W</td>
+        </tr>
+        <tr>
+          <td>Stacje robocze / serwery</td>
+          <td>1000 W i więcej</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
+
+	
 	
 	</style>
 	</head>
