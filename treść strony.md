@@ -1,114 +1,70 @@
-*Strona główna*
+Podstrona 1
 
-*Nazywam się Filip Staniszewski, chodzę do klasy 8e i moją pasją są komputery, ich budowa oraz wszelka konfiguracja.*
+	1. Generowanie i Wyświetlanie Obrazu 🖼️
 
-*Z mojej strony dowiesz się jak złożyć komputer oraz jakie potrzebujesz akcesoria i jaki wybrać do niego system.*
 
 
+		Jest to podstawowa i najważniejsza funkcja. Karta graficzna:
 
 
 
+			Przekształca dane: Pobiera dane dotyczące obrazu (np. tekstury, geometrii, kolory) z procesora głównego (CPU) i przetwarza je na obrazy wyświetlane na ekranie.
 
 
 
+			Rasteryzacja: Proces zamiany trójwymiarowych obiektów na dwuwymiarowe piksele, które widzimy na ekranie. GPU jest wyspecjalizowane w wykonywaniu tysięcy takich 			obliczeń jednocześnie (przetwarzanie równoległe).
 
 
 
+			Pamięć VRAM (Video RAM): Karta posiada własną, bardzo szybką pamięć (VRAM), która przechowuje tymczasowe dane graficzne (tekstury, bufory klatek), odciążając pamięć 			systemową RAM.
 
 
 
+			Wyjścia Wideo: Obsługuje złącza, takie jak HDMI, DisplayPort, starsze karty mogą jeszcze obsługiwać standard VGA, umożliwiając podłączenie monitora lub projektora.
 
 
 
-*Podstrona 1*
+	2. Akceleracja w Grach (Gaming) 🎮
 
 
 
-*Części komputera - przycisk*
+			Wydajne karty graficzne są niezbędne do płynnego wyświetlania dynamicznych i skomplikowanych scen w grach komputerowych:
 
-*- obudowa - Pierwszą rzeczą jest obudowa komputera to element obowiązkowy każdego zestawu komputerowego. Jej główną funkcją jest ochrona podzespołów komputerowych przed uszkodzeniem mechanicznym i wpływem czynników zewnętrznych, takich jak kurz, wilgoć czy pył*
 
-*- zasilacz (PSU - Power Supply Unit) - urządzenie, które przetwarza napięcie przemienne z gniazdka elektrycznego na niskie, stabilizowane napięcia stałe.*
 
-*- płyta główna - Płyta główna to najważniejszy element w każdym komputerze. Jest to obwód, na którym montuje się wszystkie pozostałe komponenty komputera, w tym procesor, pamięć operacyjną, dyski twarde, karty graficzne i inne.*
+			Renderowanie 3D: Generowanie złożonej grafiki trójwymiarowej w czasie rzeczywistym.
 
-*- procesor (CPU - Central Processing Unit) - Jest to mózg komputera. Odpowiada za prawidłowe przeprowadzanie procesów – od prostych, polegających na wykonywaniu matematycznych obliczeń w cyfrowym kalkulatorze, po skomplikowane, umożliwiające granie w gry komputerowe.*
 
-*- pamięć ram - pamięć o dostępie swobodnym (RAM - Random Access Memory), znana również jako pamięć główna, to rodzaj pamięci komputerowej, która przechowuje dane i instrukcje, które są obecnie używane przez procesor. Jej pojemność określana zazwyczaj w gigabajtach. Pamięć RAM jest szybka i łatwa w dostępie, co czyni ją idealnym miejscem do przechowywania danych, które są często używane.*
 
-*- dysk - służy do zapisywania danych z systemu. SSD (Solid State Drive) i NVMe (Non-Volatile Memory express) - dwa rodzaje dysków, które zastąpiły dyski twarde (HDD – Hard Disk Drive) jako domyślny typ pamięci masowej w komputerach.*
+			Ray Tracing (Śledzenie Promieni): Nowoczesna technologia symulująca fizyczne zachowanie światła, cieni i odbić, co znacząco zwiększa realizm grafiki (wymaga 				dedykowanych rdzeni RT, np. w kartach NVIDIA RTX).
 
-* - karta graficzna (GPU) -  służy przede wszystkim do tworzenia i wyświetlania obrazów na monitorze. Przekształca dane cyfrowe przetwarzane przez komputer na sygnał wizualny, który jest zrozumiały dla wyświetlacza.*
 
-	*Główne funkcje karty graficznej:*
 
+			Skalowanie Obrazu (np. DLSS, FSR): Wykorzystanie sztucznej inteligencji (AI) do skalowania obrazu z niższej rozdzielczości do wyższej (np. z 1080p do 4K), co 				poprawia płynność (klatki na sekundę) przy zachowaniu wysokiej jakości wizualnej.
 
 
-&nbsp;		1. Generowanie i Wyświetlanie Obrazu 🖼️
 
+	3. Wsparcie Obliczeń Profesjonalnych (GPGPU) 🧑‍💻
 
 
-&nbsp;		Jest to podstawowa i najważniejsza funkcja. Karta graficzna:
 
+			Dzięki swojej architekturze z tysiącami małych rdzeni, GPU świetnie nadają się do równoległego wykonywania wielu podobnych obliczeń, odciążając CPU. Ten mechanizm 			nazywany jest General-Purpose computing on Graphics Processing Units (GPGPU).
 
 
-&nbsp;			Przekształca dane: Pobiera dane dotyczące obrazu (np. tekstury, geometrii, kolory) z procesora głównego (CPU) i przetwarza je na obrazy wyświetlane na ekranie.
 
+			Renderowanie Grafiki 3D i Animacji: Znaczne przyspieszenie tworzenia i renderowania zaawansowanych scen 3D (np. w programach Blender, Cinema 4D).
 
 
-&nbsp;			Rasteryzacja: Proces zamiany trójwymiarowych obiektów na dwuwymiarowe piksele, które widzimy na ekranie. GPU jest wyspecjalizowane w wykonywaniu tysięcy takich 			obliczeń jednocześnie (przetwarzanie równoległe).
 
+			Edycja Wideo i Montaż: Szybkie przetwarzanie, kodowanie i dekodowanie plików wideo w wysokiej rozdzielczości (4K, 8K) oraz stosowanie efektów.
 
 
-&nbsp;			Pamięć VRAM (Video RAM): Karta posiada własną, bardzo szybką pamięć (VRAM), która przechowuje tymczasowe dane graficzne (tekstury, bufory klatek), odciążając pamięć 			systemową RAM.
 
+			Sztuczna Inteligencja (AI) i Uczenie Maszynowe (ML): GPU jest podstawą do trenowania i uruchamiania modeli AI (np. w procesie uczenia głębokiego), ponieważ świetnie 			radzi sobie z matrycowymi operacjami matematycznymi.
 
 
-&nbsp;			Wyjścia Wideo: Obsługuje złącza, takie jak HDMI, DisplayPort, czy starsze VGA, umożliwiając podłączenie monitora lub projektora.
 
-
-
-&nbsp;		2. Akceleracja w Grach (Gaming) 🎮
-
-
-
-&nbsp;			Wydajne karty graficzne są niezbędne do płynnego wyświetlania dynamicznych i skomplikowanych scen w grach komputerowych:
-
-
-
-&nbsp;			Renderowanie 3D: Generowanie złożonej grafiki trójwymiarowej w czasie rzeczywistym.
-
-
-
-&nbsp;			Ray Tracing (Śledzenie Promieni): Nowoczesna technologia symulująca fizyczne zachowanie światła, cieni i odbić, co znacząco zwiększa realizm grafiki (wymaga 				dedykowanych rdzeni RT, np. w kartach NVIDIA RTX).
-
-
-
-&nbsp;			Skalowanie Obrazu (np. DLSS, FSR): Wykorzystanie sztucznej inteligencji (AI) do skalowania obrazu z niższej rozdzielczości do wyższej (np. z 1080p do 4K), co 				poprawia płynność (klatki na sekundę) przy zachowaniu wysokiej jakości wizualnej.
-
-
-
-&nbsp;		3. Wsparcie Obliczeń Profesjonalnych (GPGPU) 🧑‍💻
-
-
-
-&nbsp;			Dzięki swojej architekturze z tysiącami małych rdzeni, GPU świetnie nadają się do równoległego wykonywania wielu podobnych obliczeń, odciążając CPU. Ten mechanizm 			nazywany jest General-Purpose computing on Graphics Processing Units (GPGPU).
-
-
-
-&nbsp;			Renderowanie Grafiki 3D i Animacji: Znaczne przyspieszenie tworzenia i renderowania zaawansowanych scen 3D (np. w programach Blender, Cinema 4D).
-
-
-
-&nbsp;			Edycja Wideo i Montaż: Szybkie przetwarzanie, kodowanie i dekodowanie plików wideo w wysokiej rozdzielczości (4K, 8K) oraz stosowanie efektów.
-
-
-
-&nbsp;			Sztuczna Inteligencja (AI) i Uczenie Maszynowe (ML): GPU jest podstawą do trenowania i uruchamiania modeli AI (np. w procesie uczenia głębokiego), ponieważ świetnie 			radzi sobie z matrycowymi operacjami matematycznymi.
-
-
-
-&nbsp;			Obliczenia Naukowe i Inżynieryjne: Wykorzystanie w symulacjach fizycznych, modelowaniu cząsteczek, analizie danych geologicznych i innych skomplikowanych zadaniach.
+			Obliczenia Naukowe i Inżynieryjne: Wykorzystanie w symulacjach fizycznych, modelowaniu cząsteczek, analizie danych geologicznych i innych skomplikowanych zadaniach.
 
 
 
@@ -288,15 +244,16 @@ Urządzenia peryferyjne
 
 
 
- 		- Klawiatury membranowe: Najbardziej powszechne, tanie w produkcji i ciche. Działają na zasadzie nacisku na elastyczną membranę pod klawiszami. Są idealne do codziennego użytku biurowego i domowego.
+ 		- Klawiatury membranowe: Najbardziej powszechne, tanie w produkcji i ciche. Działają na zasadzie nacisku na elastyczną membranę pod klawiszami, która z kolei naciska na płytkę stykową, która wysyła informację o wciśniętym klawiszu do komputera. Są idealne do codziennego użytku biurowego i domowego.
 
 
 
- 		- Klawiatury mechaniczne: Każdy klawisz ma osobny, niezależny przełącznik (switch). Charakteryzują się dużą precyzją, wysoką trwałością i wyraźnym "klikiem" (lub innym rodzajem wyczuwalnego oporu), co doceniają gracze i osoby dużo piszące, np. programiści czy pisarze.
+		- Klawiatury nożycowe: Wariant klawiatur membranowych, często spotykany w laptopach. Mechanizm nożycowy zapewnia krótki skok klawisza i stabilność, co sprawia, że są ciche i wygodne do pisania.
 
 
 
- 		- Klawiatury nożycowe: Wariant klawiatur membranowych, często spotykany w laptopach. Mechanizm nożycowy zapewnia krótki skok klawisza i stabilność, co sprawia, że są ciche i wygodne do pisania.
+ 		- Klawiatury mechaniczne: Każdy klawisz ma osobny, niezależny przełącznik (switch). Charakteryzują się dużą precyzją, wysoką trwałością i wyraźnym "klikiem", co doceniają gracze i osoby dużo piszące, np. programiści czy pisarze.
+
 
 
 

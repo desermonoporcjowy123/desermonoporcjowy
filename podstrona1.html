@@ -29,7 +29,7 @@
 	}
 	p {
 		color: 0e0e0e;
-		font-size: 20px;
+		font-size: 25px;
 		font-family: Helvetica;
 	}
 	ol {
@@ -44,6 +44,10 @@
 		font-family: Helvetica;
 		margin-bottom: 5px;
 	}
+	a {
+    font-family: 'Helvetica', monospace;
+	}
+
 	
 
 
@@ -60,7 +64,7 @@
 	<!-- powrót --!>
 	
 	<div class="proporcjezdjc">
-	<a href="index.html"><img src="obrazy\przycisk wstecz.png"></a> 
+	<a href="index.html"><img src="obrazy\przycisk strony głównej.png"></a> 
 	
 	</div>
 	<!-- kropka --!>
@@ -82,7 +86,7 @@
 	}
 	</style>
 	<!-- punkt --!>
-	<p class="rozmiartekstu"><li><B>Full Tower (Big Tower)</B></li>
+	<p class="rozmiartekstu"><li><B>Full Tower</B></li>
 	<ol class="custom-list">
 	<br>
 		<!-- podpunkty --!>
@@ -93,7 +97,7 @@
 </ol>
 	
 	<!-- punkt --!>
-	<p class="rozmiartekstu"><li><B>Midi Tower (Mid Tower / Middle Tower)</B></li>
+	<p class="rozmiartekstu"><li><B>Midi Tower</B></li>
 	<ol class="custom-list">
 	<br>
 		<!-- podpunkty --!>
@@ -137,7 +141,6 @@
 	<p class="rozmiartekstu"> Moc zasilacza zależy od typu komputera, który chcesz zbudować:</p>
 	</ul>
 	<!-- styl tabeli -->
-	<!DOCTYPE html>
 	<html lang="pl">
 	<head>
   <meta charset="UTF-8">
@@ -185,8 +188,8 @@
     }
   </style>
 </head>
-	<!-- tabela --!>
-	
+	<!-- tabela  -->
+
 	<table border="1">
   <thead>
     <tr>
@@ -262,7 +265,7 @@
 	<!-- kropka --!>
 	<ul>
 	<li><p class="rozmiartekstowtytulow"><B>pamięć RAM</B>  </p></li>
-	<p class="rozmiartekstu"> pamięć o dostępie swobodnym (ang. <B>RAM</B> - <B>R</B>andom <B>A</B>ccess <B>M</B>emory), to rodzaj pamięci komputerowej, która przechowuje dane i instrukcje, które są obecnie używane przez procesor. Jej pojemność określana zazwyczaj w gigabajtach (GB). Pamięć RAM jest szybka i łatwa w dostępie, co czyni ją idealnym miejscem do przechowywania danych, które są często używane.   </p>
+	<p class="rozmiartekstu"> pamięć o dostępie swobodnym (<B>RAM</B> - <B>R</B>andom <B>A</B>ccess <B>M</B>emory), to rodzaj pamięci komputerowej, która przechowuje dane i instrukcje, które są obecnie używane przez procesor. Jej pojemność określana zazwyczaj w gigabajtach (GB). Pamięć RAM jest szybka i łatwa w dostępie, co czyni ją idealnym miejscem do przechowywania danych, które są często używane.   </p>
 	<p class="rozmiartekstu">  </p>
 	</ul>
 	<!-- tabela --!>
@@ -311,9 +314,10 @@
 	<ol class="custom-list">
 	</ol>
 	</ul>
+	</li>
 		<!-- podpunkty (kropki) --!>
 			<ul>
-			<li><B>Przechowywanie systemu operacyjnego</B> (OS - ang. <B>O</B>perating <B>S</B>ystem)</B> - Na dysku instalowany jest <a href="https://pl.wikipedia.org/wiki/System_operacyjny" style="font-size: 17px;"> ‎system operacyjny </a> (najczęściej Windows, czasami Linux), który służy do organizowania plików, uruchaminia aplikacji... Szybkość dysku ma ogromny wpływ na czas uruchamiania systemu.</li>
+			<li><B>Przechowywanie systemu operacyjnego</B> (OS - <B>O</B>perating <B>S</B>ystem)</B> - Na dysku instalowany jest <a href="https://pl.wikipedia.org/wiki/System_operacyjny" style="font-size: 17px;"> ‎system operacyjny </a> (najczęściej Windows, czasami Linux), który służy do organizowania plików, uruchaminia aplikacji... Szybkość dysku ma ogromny wpływ na czas uruchamiania systemu.</li>
 			<li><B>Przechowywanie Aplikacji i Programów</B> - Wszystkie zainstalowane programy, gry i narzędzia komputerowe są przechowywane na dysku.</li>
 			<li><B>Przechowywanie Danych Użytkownika</B> - Dysk służy do przechowywania osobistych plików użytkownika, takich jak dokumenty, zdjęcia, filmy, muzyka, kopie zapasowe oraz inne pliki multimedialne.</li>
 			<li><B>Wirtualna Pamięć (Plik stronicowania - swap)</B> - W sytuacjach, gdy pamięć RAM jest niewystarczająca, system operacyjny może wykorzystywać część przestrzeni dyskowej jako tymczasową pamięć wirtualną, przenosząc do niej rzadziej używane dane.</li>
@@ -356,8 +360,69 @@
 	<p class="rozmiartekstu"> <B>Główne funkcje karty graficznej: </B></p>
 	<ol class="custom-list">
 	</ol>
-	</ul>
+	</ul
+
+		<!-- podpunkty kropki --!>
+			<ul>
+			<li><B>Generowanie i Wyświetlanie Obrazu</B></li>
+			<br>
+				<!-- podpodpunkty --!>
+				<ul>
+				<li><B>Przekształca dane</B>: Pobiera dane dotyczące obrazu (np. tekstury, geometrii, kolory) z procesora głównego (CPU) i przetwarza je na obrazy wyświetlane na ekranie.</li>
+				<br>
+				<li><B>Rasteryzacja</B>: Proces zamiany trójwymiarowych obiektów na dwuwymiarowe piksele, które widzimy na ekranie. GPU jest wyspecjalizowane w wykonywaniu tysięcy takich obliczeń jednocześnie.</li>
+				<br>
+				<li><B>Pamięć VRAM (Video RAM)</B>: Karta posiada własną, bardzo szybką pamięć (VRAM), która przechowuje tymczasowe dane graficzne (tekstury, bufory klatek), odciążając pamięć systemową RAM.</li>
+				<br>
+				<li><B>Wyjścia Wideo</B>: Karta obsługuje złącza, takie jak HDMI, DisplayPort, starsze karty mogą jeszcze obsługiwać standard VGA, umożliwiając podłączenie monitora lub telewizora.</li>
+				<br>
+				</ul>
+			</ul>
 	
+		<!-- podpunkty kropki --!>
+			<ul>
+			<li><B>Akceleracja w Grach</B></li>
+			<br>
+				<!-- podpodpunkty --!>
+				<ul>
+				<li><B>Renderowanie 3D</B>: Generowanie złożonej grafiki trójwymiarowej w czasie rzeczywistym.</li>
+				<br>
+				<li><B>Ray Tracing (Śledzenie Promieni)</B>: Nowoczesna technologia symulująca fizyczne zachowanie światła, cieni i odbić, co znacząco zwiększa realizm grafiki (wymaga dedykowanych rdzeni RT, np. w kartach NVIDIA RTX).</li>
+				<br>
+				<li><B>Skalowanie Obrazu (np. DLSS (<B>D</B>eep <B>L</B>earning <B>S</B>uper <B>S</B>ampling) od firmy NVIDIA oraz FSR (<B>F</B>idelityFX <B>S</B>uper <B>R</B>esolution) od AMD</B>: Wykorzystanie sztucznej inteligencji (AI) do skalowania obrazu z niższej rozdzielczości do wyższej (np. z 1080p do 4K), co poprawia płynność (klatki na sekundę) przy zachowaniu wysokiej jakości wizualnej.</li>
+				<br>
+				</ul>
+			</ul>
+		<!-- podpunkty kropki --!>
+			<ul>
+			<li><B>Wsparcie Obliczeń Profesjonalnych</B></li>
+			<br>
+				<!-- podpodpunkty --!>
+				<ul>
+				<li>Dzięki swojej architekturze z tysiącami małych rdzeni, karty graficzne świetnie nadają się do równoległego wykonywania wielu podobnych obliczeń, odciążając procesor. Ten mechanizm nazywany jest <B>General-Purpose computing on Graphics Processing Units (GPGPU)</B>.</li>
+				<br>
+				<li><B>Renderowanie Grafiki 3D i Animacji</B>: Znaczne przyspieszenie tworzenia i renderowania zaawansowanych scen 3D (np. w programie <B>Blender</B>).</li>
+				<br>
+				<li><B>Edycja Wideo i Montaż</B>: Szybkie przetwarzanie, kodowanie i dekodowanie plików wideo w wysokiej rozdzielczości (4K, 8K) oraz stosowanie efektów.</li>
+				<br>
+				<li><B>Sztuczna Inteligencja (AI (ang. <B>A</B>rtificial <B>I</B>nteligence)) i Uczenie Maszynowe (ML (ang. <B>M</B>achine <B>L</B>earning))</B>: Szybkie przetwarzanie, kodowanie i dekodowanie plików wideo w wysokiej rozdzielczości (4K, 8K) oraz stosowanie efektów.</li>
+				<br>
+				<li><B>Obliczenia Naukowe i Inżynieryjne</B>: Wykorzystanie w symulacjach fizycznych, modelowaniu cząsteczek, analizie danych geologicznych i innych skomplikowanych zadaniach.</li>
+				<br>
+				</ul>
+			</ul>
+	
+	<!-- powrót na górę strony --!>
+	
+	<script>
+	function scrollToTop() {
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+	}
+	</script>
+
+	<button onclick="scrollToTop()">Powrót na górę strony</button>
+	<br>
+
 	<!-- przycisk1 --!>
 	<br>
 	<div class="proporcjezdjc">
